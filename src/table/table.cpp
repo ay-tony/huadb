@@ -37,7 +37,33 @@ Rid Table::InsertRecord(std::shared_ptr<Record> record, xid_t xid, cid_t cid, bo
   // 找到空间足够的页面后，通过 TablePage 插入记录
   // 返回插入记录的 rid
   // LAB 1 BEGIN
-  return {0, 0};
+
+  // 如果表中没有页面则新插入一张页面
+  if (first_page_id_ == NULL_PAGE_ID) {
+    first_page_id_ = 0;
+    TablePage page{buffer_pool_.NewPage(db_oid_, oid_, first_page_id_)};
+    page.Init();
+  }
+
+  pageid_t cur_page_id{first_page_id_};
+  TablePage cur_table_page{buffer_pool_.GetPage(db_oid_, oid_, cur_page_id)};
+
+  // 遍历表中页面，找到第一个有足够空间的页面
+  // 遍历过程中如果到末尾就新建页面
+  while (cur_table_page.GetFreeSpaceSize() < record->GetSize()) {
+    if (cur_table_page.GetNextPageId() == NULL_PAGE_ID) {
+      cur_table_page.SetNextPageId(cur_page_id + 1);
+      TablePage new_table_page{buffer_pool_.NewPage(db_oid_, oid_, cur_page_id + 1)};
+      new_table_page.Init();
+    }
+    cur_page_id = cur_table_page.GetNextPageId();
+    cur_table_page = TablePage{buffer_pool_.GetPage(db_oid_, oid_, cur_page_id)};
+  }
+
+  // 在目标页面插入记录
+  auto slot_id{cur_table_page.InsertRecord(record, xid, cid)};
+
+  return {cur_page_id, slot_id};
 }
 
 void Table::DeleteRecord(const Rid &rid, xid_t xid, bool write_log) {

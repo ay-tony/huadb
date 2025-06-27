@@ -37,7 +37,20 @@ slotid_t TablePage::InsertRecord(std::shared_ptr<Record> record, xid_t xid, cid_
   // 将 page 标记为 dirty
   // 返回插入的 slot id
   // LAB 1 BEGIN
-  return 0;
+
+  // 写入记录并更新 upper
+  *upper_ -= record->GetSize();
+  record->SerializeTo(page_data_ + *upper_);
+
+  // 写入 slots 并更新 lower
+  slotid_t slot_id{GetRecordCount()};
+  slots_[slot_id] = {*upper_, record->GetSize()};
+  *lower_ += sizeof(Slot);
+
+  // 标记为 Dirty
+  page_->SetDirty();
+
+  return slot_id;
 }
 
 void TablePage::DeleteRecord(slotid_t slot_id, xid_t xid) {
