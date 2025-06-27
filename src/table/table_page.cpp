@@ -72,7 +72,17 @@ std::shared_ptr<Record> TablePage::GetRecord(Rid rid, const ColumnList &column_l
   // 根据 slot_id 获取 record
   // 新建 record 并设置 rid
   // LAB 1 BEGIN
-  return nullptr;
+
+  // 通过 slot_id 获取 offset
+  auto [_, slot_id] = rid;
+  Slot slot = slots_[slot_id];
+  auto [offset, _] = slot;
+
+  // 反序列化 record
+  std::shared_ptr<Record> record{std::make_unique<Record>()};
+  record->DeserializeFrom(page_data_ + offset, column_list);
+
+  return record;
 }
 
 void TablePage::UndoDeleteRecord(slotid_t slot_id) {
