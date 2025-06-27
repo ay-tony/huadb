@@ -16,19 +16,23 @@ lab1-debug:
 	mkdir -p ./build/debug && \
 	cd build/debug && \
 	cmake ../.. -DCMAKE_BUILD_TYPE=Debug -DSIMPLE_CATALOG=1 && \
-	cmake --build .
+	cmake --build . && \
+	cp compile_commands.json ../../
 
 debug:
 	mkdir -p ./build/debug && \
 	cd build/debug && \
 	cmake ../.. -DCMAKE_BUILD_TYPE=Debug && \
-	cmake --build .
+	cmake --build . && \
+	cp compile_commands.json ../../
+
 
 release:
 	mkdir -p ./build/debug && \
 	cd build/debug && \
 	cmake ../.. -DCMAKE_BUILD_TYPE=Release && \
-	cmake --build .
+	cmake --build . && \
+	cp compile_commands.json ../../
 
 format:
 	@for file in $(shell find src test -name '*.h' -o -name '*.cpp'); do \

@@ -1,0 +1,422 @@
+[
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/fmt",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -w -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/aytony/project/huadb/third_party/fmt/src/format.cc",
+  "file": "/home/aytony/project/huadb/third_party/fmt/src/format.cc",
+  "output": "third_party/fmt/CMakeFiles/fmt.dir/src/format.cc.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/fmt",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -w -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/aytony/project/huadb/third_party/fmt/src/os.cc",
+  "file": "/home/aytony/project/huadb/third_party/fmt/src/os.cc",
+  "output": "third_party/fmt/CMakeFiles/fmt.dir/src/os.cc.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libfort/lib",
+  "command": "/usr/sbin/cc  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src          -Wall         -Wextra         -Wdouble-promotion         -Wshadow         -Wformat=2         -Wno-variadic-macros         -Wcast-align         -Wstrict-aliasing=2         -Wstrict-overflow=5         -Wfloat-equal         -Wwrite-strings                      -Wtrampolines             -Wlogical-op -Wpedantic -g -fPIC -w -o CMakeFiles/fort.dir/fort.c.o -c /home/aytony/project/huadb/third_party/libfort/lib/fort.c",
+  "file": "/home/aytony/project/huadb/third_party/libfort/lib/fort.c",
+  "output": "third_party/libfort/lib/CMakeFiles/fort.dir/fort.c.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/postgres_parser.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/postgres_parser.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/postgres_parser.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/postgres_parser.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/pg_functions.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/pg_functions.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/pg_functions.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/pg_functions.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_backend_parser_parser.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_parser.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_parser.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_backend_parser_parser.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_backend_parser_gram.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_gram.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_gram.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_backend_parser_gram.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_backend_nodes_list.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_backend_nodes_list.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_backend_nodes_list.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_backend_nodes_list.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_backend_parser_scansup.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_scansup.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_scansup.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_backend_parser_scansup.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_backend_nodes_makefuncs.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_backend_nodes_makefuncs.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_backend_nodes_makefuncs.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_backend_nodes_makefuncs.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_backend_nodes_value.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_backend_nodes_value.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_backend_nodes_value.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_backend_nodes_value.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_backend_parser_scan.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_scan.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_backend_parser_scan.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_backend_parser_scan.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/libpg_query",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -fPIC -fvisibility=hidden -w -o CMakeFiles/duckdb_pg_query.dir/src_common_keywords.cpp.o -c /home/aytony/project/huadb/third_party/libpg_query/src_common_keywords.cpp",
+  "file": "/home/aytony/project/huadb/third_party/libpg_query/src_common_keywords.cpp",
+  "output": "third_party/libpg_query/CMakeFiles/duckdb_pg_query.dir/src_common_keywords.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/third_party/linenoise",
+  "command": "/usr/sbin/cc  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -w -o CMakeFiles/linenoise.dir/linenoise.c.o -c /home/aytony/project/huadb/third_party/linenoise/linenoise.c",
+  "file": "/home/aytony/project/huadb/third_party/linenoise/linenoise.c",
+  "output": "third_party/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/binder",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/binder.dir/binder.cpp.o -c /home/aytony/project/huadb/src/binder/binder.cpp",
+  "file": "/home/aytony/project/huadb/src/binder/binder.cpp",
+  "output": "src/binder/CMakeFiles/binder.dir/binder.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/binder",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/binder.dir/node_tag_to_string.cpp.o -c /home/aytony/project/huadb/src/binder/node_tag_to_string.cpp",
+  "file": "/home/aytony/project/huadb/src/binder/node_tag_to_string.cpp",
+  "output": "src/binder/CMakeFiles/binder.dir/node_tag_to_string.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/catalog",
+  "command": "/usr/sbin/c++ -DSIMPLE_CATALOG -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/catalog.dir/column_definition.cpp.o -c /home/aytony/project/huadb/src/catalog/column_definition.cpp",
+  "file": "/home/aytony/project/huadb/src/catalog/column_definition.cpp",
+  "output": "src/catalog/CMakeFiles/catalog.dir/column_definition.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/catalog",
+  "command": "/usr/sbin/c++ -DSIMPLE_CATALOG -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/catalog.dir/column_list.cpp.o -c /home/aytony/project/huadb/src/catalog/column_list.cpp",
+  "file": "/home/aytony/project/huadb/src/catalog/column_list.cpp",
+  "output": "src/catalog/CMakeFiles/catalog.dir/column_list.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/catalog",
+  "command": "/usr/sbin/c++ -DSIMPLE_CATALOG -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/catalog.dir/oid_manager.cpp.o -c /home/aytony/project/huadb/src/catalog/oid_manager.cpp",
+  "file": "/home/aytony/project/huadb/src/catalog/oid_manager.cpp",
+  "output": "src/catalog/CMakeFiles/catalog.dir/oid_manager.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/catalog",
+  "command": "/usr/sbin/c++ -DSIMPLE_CATALOG -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/catalog.dir/simple_catalog.cpp.o -c /home/aytony/project/huadb/src/catalog/simple_catalog.cpp",
+  "file": "/home/aytony/project/huadb/src/catalog/simple_catalog.cpp",
+  "output": "src/catalog/CMakeFiles/catalog.dir/simple_catalog.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/catalog",
+  "command": "/usr/sbin/c++ -DSIMPLE_CATALOG -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/catalog.dir/system_catalog.cpp.o -c /home/aytony/project/huadb/src/catalog/system_catalog.cpp",
+  "file": "/home/aytony/project/huadb/src/catalog/system_catalog.cpp",
+  "output": "src/catalog/CMakeFiles/catalog.dir/system_catalog.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/common",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/common.dir/bitmap.cpp.o -c /home/aytony/project/huadb/src/common/bitmap.cpp",
+  "file": "/home/aytony/project/huadb/src/common/bitmap.cpp",
+  "output": "src/common/CMakeFiles/common.dir/bitmap.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/common",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/common.dir/string_util.cpp.o -c /home/aytony/project/huadb/src/common/string_util.cpp",
+  "file": "/home/aytony/project/huadb/src/common/string_util.cpp",
+  "output": "src/common/CMakeFiles/common.dir/string_util.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/common",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/common.dir/type_util.cpp.o -c /home/aytony/project/huadb/src/common/type_util.cpp",
+  "file": "/home/aytony/project/huadb/src/common/type_util.cpp",
+  "output": "src/common/CMakeFiles/common.dir/type_util.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/common",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/common.dir/value.cpp.o -c /home/aytony/project/huadb/src/common/value.cpp",
+  "file": "/home/aytony/project/huadb/src/common/value.cpp",
+  "output": "src/common/CMakeFiles/common.dir/value.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/database",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/database.dir/connection.cpp.o -c /home/aytony/project/huadb/src/database/connection.cpp",
+  "file": "/home/aytony/project/huadb/src/database/connection.cpp",
+  "output": "src/database/CMakeFiles/database.dir/connection.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/database",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/database.dir/database_engine.cpp.o -c /home/aytony/project/huadb/src/database/database_engine.cpp",
+  "file": "/home/aytony/project/huadb/src/database/database_engine.cpp",
+  "output": "src/database/CMakeFiles/database.dir/database_engine.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/aggregate_executor.cpp.o -c /home/aytony/project/huadb/src/executors/aggregate_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/aggregate_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/aggregate_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/delete_executor.cpp.o -c /home/aytony/project/huadb/src/executors/delete_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/delete_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/delete_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/filter_executor.cpp.o -c /home/aytony/project/huadb/src/executors/filter_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/filter_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/filter_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/hash_join_executor.cpp.o -c /home/aytony/project/huadb/src/executors/hash_join_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/hash_join_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/hash_join_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/insert_executor.cpp.o -c /home/aytony/project/huadb/src/executors/insert_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/insert_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/insert_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/limit_executor.cpp.o -c /home/aytony/project/huadb/src/executors/limit_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/limit_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/limit_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/lock_rows_executor.cpp.o -c /home/aytony/project/huadb/src/executors/lock_rows_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/lock_rows_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/lock_rows_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/merge_join_executor.cpp.o -c /home/aytony/project/huadb/src/executors/merge_join_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/merge_join_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/merge_join_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/nested_loop_join_executor.cpp.o -c /home/aytony/project/huadb/src/executors/nested_loop_join_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/nested_loop_join_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/nested_loop_join_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/orderby_executor.cpp.o -c /home/aytony/project/huadb/src/executors/orderby_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/orderby_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/orderby_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/projection_executor.cpp.o -c /home/aytony/project/huadb/src/executors/projection_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/projection_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/projection_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/seqscan_executor.cpp.o -c /home/aytony/project/huadb/src/executors/seqscan_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/seqscan_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/seqscan_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/update_executor.cpp.o -c /home/aytony/project/huadb/src/executors/update_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/update_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/update_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/executors",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/executors.dir/values_executor.cpp.o -c /home/aytony/project/huadb/src/executors/values_executor.cpp",
+  "file": "/home/aytony/project/huadb/src/executors/values_executor.cpp",
+  "output": "src/executors/CMakeFiles/executors.dir/values_executor.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log.dir/log_manager.cpp.o -c /home/aytony/project/huadb/src/log/log_manager.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_manager.cpp",
+  "output": "src/log/CMakeFiles/log.dir/log_manager.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log.dir/log_record.cpp.o -c /home/aytony/project/huadb/src/log/log_record.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_record.cpp",
+  "output": "src/log/CMakeFiles/log.dir/log_record.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/begin_checkpoint_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/begin_checkpoint_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/begin_checkpoint_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/begin_checkpoint_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/begin_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/begin_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/begin_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/begin_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/commit_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/commit_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/commit_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/commit_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/delete_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/delete_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/delete_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/delete_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/end_checkpoint_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/end_checkpoint_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/end_checkpoint_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/end_checkpoint_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/insert_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/insert_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/insert_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/insert_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/new_page_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/new_page_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/new_page_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/new_page_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/log/log_records",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/log_records.dir/rollback_log.cpp.o -c /home/aytony/project/huadb/src/log/log_records/rollback_log.cpp",
+  "file": "/home/aytony/project/huadb/src/log/log_records/rollback_log.cpp",
+  "output": "src/log/log_records/CMakeFiles/log_records.dir/rollback_log.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/optimizer",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/optimizer.dir/optimizer.cpp.o -c /home/aytony/project/huadb/src/optimizer/optimizer.cpp",
+  "file": "/home/aytony/project/huadb/src/optimizer/optimizer.cpp",
+  "output": "src/optimizer/CMakeFiles/optimizer.dir/optimizer.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/planner",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/planner.dir/planner.cpp.o -c /home/aytony/project/huadb/src/planner/planner.cpp",
+  "file": "/home/aytony/project/huadb/src/planner/planner.cpp",
+  "output": "src/planner/CMakeFiles/planner.dir/planner.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/storage",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/storage.dir/buffer_pool.cpp.o -c /home/aytony/project/huadb/src/storage/buffer_pool.cpp",
+  "file": "/home/aytony/project/huadb/src/storage/buffer_pool.cpp",
+  "output": "src/storage/CMakeFiles/storage.dir/buffer_pool.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/storage",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/storage.dir/disk.cpp.o -c /home/aytony/project/huadb/src/storage/disk.cpp",
+  "file": "/home/aytony/project/huadb/src/storage/disk.cpp",
+  "output": "src/storage/CMakeFiles/storage.dir/disk.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/storage",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/storage.dir/lru_buffer_strategy.cpp.o -c /home/aytony/project/huadb/src/storage/lru_buffer_strategy.cpp",
+  "file": "/home/aytony/project/huadb/src/storage/lru_buffer_strategy.cpp",
+  "output": "src/storage/CMakeFiles/storage.dir/lru_buffer_strategy.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/storage",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/storage.dir/page.cpp.o -c /home/aytony/project/huadb/src/storage/page.cpp",
+  "file": "/home/aytony/project/huadb/src/storage/page.cpp",
+  "output": "src/storage/CMakeFiles/storage.dir/page.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/table",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/table.dir/record_header.cpp.o -c /home/aytony/project/huadb/src/table/record_header.cpp",
+  "file": "/home/aytony/project/huadb/src/table/record_header.cpp",
+  "output": "src/table/CMakeFiles/table.dir/record_header.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/table",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/table.dir/record.cpp.o -c /home/aytony/project/huadb/src/table/record.cpp",
+  "file": "/home/aytony/project/huadb/src/table/record.cpp",
+  "output": "src/table/CMakeFiles/table.dir/record.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/table",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/table.dir/table_page.cpp.o -c /home/aytony/project/huadb/src/table/table_page.cpp",
+  "file": "/home/aytony/project/huadb/src/table/table_page.cpp",
+  "output": "src/table/CMakeFiles/table.dir/table_page.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/table",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/table.dir/table_scan.cpp.o -c /home/aytony/project/huadb/src/table/table_scan.cpp",
+  "file": "/home/aytony/project/huadb/src/table/table_scan.cpp",
+  "output": "src/table/CMakeFiles/table.dir/table_scan.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/table",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/table.dir/table.cpp.o -c /home/aytony/project/huadb/src/table/table.cpp",
+  "file": "/home/aytony/project/huadb/src/table/table.cpp",
+  "output": "src/table/CMakeFiles/table.dir/table.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/transaction",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/transaction.dir/lock_manager.cpp.o -c /home/aytony/project/huadb/src/transaction/lock_manager.cpp",
+  "file": "/home/aytony/project/huadb/src/transaction/lock_manager.cpp",
+  "output": "src/transaction/CMakeFiles/transaction.dir/lock_manager.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/transaction",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/transaction.dir/transaction_manager.cpp.o -c /home/aytony/project/huadb/src/transaction/transaction_manager.cpp",
+  "file": "/home/aytony/project/huadb/src/transaction/transaction_manager.cpp",
+  "output": "src/transaction/CMakeFiles/transaction.dir/transaction_manager.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/bin",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/client.dir/client.cpp.o -c /home/aytony/project/huadb/src/bin/client.cpp",
+  "file": "/home/aytony/project/huadb/src/bin/client.cpp",
+  "output": "src/bin/CMakeFiles/client.dir/client.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/bin",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/huadb-parser.dir/huadb-parser.cpp.o -c /home/aytony/project/huadb/src/bin/huadb-parser.cpp",
+  "file": "/home/aytony/project/huadb/src/bin/huadb-parser.cpp",
+  "output": "src/bin/CMakeFiles/huadb-parser.dir/huadb-parser.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/bin",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/server.dir/server.cpp.o -c /home/aytony/project/huadb/src/bin/server.cpp",
+  "file": "/home/aytony/project/huadb/src/bin/server.cpp",
+  "output": "src/bin/CMakeFiles/server.dir/server.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/src/bin",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/shell.dir/shell.cpp.o -c /home/aytony/project/huadb/src/bin/shell.cpp",
+  "file": "/home/aytony/project/huadb/src/bin/shell.cpp",
+  "output": "src/bin/CMakeFiles/shell.dir/shell.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/test",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/sqllogictest.dir/sqllogictest.cpp.o -c /home/aytony/project/huadb/test/sqllogictest.cpp",
+  "file": "/home/aytony/project/huadb/test/sqllogictest.cpp",
+  "output": "test/CMakeFiles/sqllogictest.dir/sqllogictest.cpp.o"
+},
+{
+  "directory": "/home/aytony/project/huadb/build/debug/test",
+  "command": "/usr/sbin/c++  -I/home/aytony/project/huadb/third_party/argparse/include -I/home/aytony/project/huadb/third_party/fmt/include -I/home/aytony/project/huadb/third_party/libfort/lib -I/home/aytony/project/huadb/third_party/libpg_query/include -I/home/aytony/project/huadb/third_party/linenoise -I/home/aytony/project/huadb/src -g -std=gnu++17 -o CMakeFiles/sqllogictest.dir/sqllogicparser.cpp.o -c /home/aytony/project/huadb/test/sqllogicparser.cpp",
+  "file": "/home/aytony/project/huadb/test/sqllogicparser.cpp",
+  "output": "test/CMakeFiles/sqllogictest.dir/sqllogicparser.cpp.o"
+}
+]
