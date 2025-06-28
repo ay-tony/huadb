@@ -1,3 +1,7 @@
+# Fork 的数据库实验
+
+[完成思路](https://solitairemiya.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/)
+
 # HuaDB
 
 HuaDB 为清华大学数据库内核课程的实验框架，实验说明可参阅[课程文档](https://thu-db.github.io/huadb-doc/)，课程资料可在[课程主页](https://dbgroup.cs.tsinghua.edu.cn/ligl/courses_cn.html)查阅。
