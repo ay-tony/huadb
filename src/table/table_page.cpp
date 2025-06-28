@@ -61,6 +61,16 @@ void TablePage::DeleteRecord(slotid_t slot_id, xid_t xid) {
   // 可使用 Record::DeserializeHeaderFrom 函数读取记录头
   // 将 page 标记为 dirty
   // LAB 1 BEGIN
+
+  auto [offset, _] = slots_[slot_id];
+
+  // 将 del 位置 1
+  std::shared_ptr<Record> record{std::make_unique<Record>()};
+  record->DeserializeHeaderFrom(page_data_ + offset);
+  record->SetDeleted(true);
+  record->SerializeHeaderTo(page_data_ + offset);
+
+  page_->SetDirty();
 }
 
 void TablePage::UpdateRecordInPlace(const Record &record, slotid_t slot_id) {
@@ -81,6 +91,7 @@ std::shared_ptr<Record> TablePage::GetRecord(Rid rid, const ColumnList &column_l
   // 反序列化 record
   std::shared_ptr<Record> record{std::make_unique<Record>()};
   record->DeserializeFrom(page_data_ + offset, column_list);
+  record->SetRid(rid);
 
   return record;
 }

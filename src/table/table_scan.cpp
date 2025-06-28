@@ -20,6 +20,24 @@ std::shared_ptr<Record> TableScan::GetNextRecord(xid_t xid, IsolationLevel isola
 
   auto &[page_id, slot_id] = rid_;
 
+  // 移动 rid_ 指向下一条记录
+  auto next_record = [&] -> void {
+    TablePage table_page{buffer_pool_.GetPage(table_->GetDbOid(), table_->GetOid(), page_id)};
+    if (slot_id + 1 < table_page.GetRecordCount()) {
+      slot_id++;
+    } else {
+      page_id = table_page.GetNextPageId();
+      slot_id = 0;
+    }
+  };
+
+  // 找到当前及之后的第一条未被删除的记录
+  while (page_id != NULL_PAGE_ID && TablePage{buffer_pool_.GetPage(table_->GetDbOid(), table_->GetOid(), page_id)}
+                                        .GetRecord(rid_, table_->GetColumnList())
+                                        ->IsDeleted()) {
+    next_record();
+  }
+
   // 遍历结束
   if (page_id == NULL_PAGE_ID) {
     return nullptr;
@@ -29,13 +47,8 @@ std::shared_ptr<Record> TableScan::GetNextRecord(xid_t xid, IsolationLevel isola
   TablePage table_page{buffer_pool_.GetPage(table_->GetDbOid(), table_->GetOid(), page_id)};
   auto record = table_page.GetRecord(rid_, table_->GetColumnList());
 
-  // 更新 rid_
-  if (slot_id < table_page.GetRecordCount() - 1) {
-    slot_id++;
-  } else {
-    page_id = table_page.GetNextPageId();
-    slot_id = 0;
-  }
+  // 移动指针
+  next_record();
 
   return record;
 }

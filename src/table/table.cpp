@@ -73,6 +73,10 @@ void Table::DeleteRecord(const Rid &rid, xid_t xid, bool write_log) {
 
   // 使用 TablePage 操作页面
   // LAB 1 BEGIN
+
+  auto [page_id, slot_id] = rid;
+  TablePage page{buffer_pool_.GetPage(db_oid_, oid_, page_id)};
+  page.DeleteRecord(slot_id, xid);
 }
 
 Rid Table::UpdateRecord(const Rid &rid, xid_t xid, cid_t cid, std::shared_ptr<Record> record, bool write_log) {
