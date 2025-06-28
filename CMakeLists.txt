@@ -31,6 +31,8 @@ function(disable_target_warnings NAME)
   target_compile_options(${NAME} PRIVATE "-w")
 endfunction()
 
+add_compile_options(-Wno-deprecated-declarations -Wno-c++26-extensions -Wno-c++23-extensions -Wno-c++20-extensions)
+
 add_subdirectory(third_party)
 
 add_subdirectory(src)
