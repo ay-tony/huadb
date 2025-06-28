@@ -10,5 +10,7 @@ build
 huadb_data
 huadb_test
 
+compile_commands.json
+
 # history file
 .huadb_history
